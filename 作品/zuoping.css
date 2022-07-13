@@ -1,0 +1,264 @@
+body {
+	background: linear-gradient(100deg, #e0c3fc 0%, #fca7b3 100%);
+	font-family: "bodoni mt";
+	height: 1000px;
+}
+
+nav {
+	font-size: 80px;
+	text-align: center;
+	text-shadow: 4px 10px 9px whitesmoke;
+	cursor: cell;
+}
+
+.hezi {
+	padding: 10px;
+	height: 100px;
+	background-color: rgba(85, 170, 255, 0.4);
+	width: 80px;
+	position: absolute;
+	top: 0;
+	left: -90px;
+	font-size: 20px;
+}
+
+.hezi:hover {
+	position: absolute;
+	left: -25px;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: #55ffff;
+}
+
+a:hover {
+	color: #F0F8FF;
+}
+
+ul li:hover {
+	color: #F0F8FF;
+	cursor: default;
+	list-style-type: square;
+}
+
+main {
+	width: 1263px;
+	height: 1064px;
+	position: absolute;
+	left: 0;
+	background: url(游戏2.png) no-repeat;
+}
+
+ol li {
+	display: inline-block;
+	color: aliceblue;
+	width: 80px;
+	font-size: 20px;
+	cursor: default;
+}
+
+.text1 {
+	text-indent: 2em;
+	width: 300px;
+	border-left: 9px groove sandybrown;
+}
+
+.picture1 {
+	border: 5px #000000;
+	border-radius: 4px;
+	/* transform: translate(0%, 0%) rotate3d(0,0,0, 0deg); */
+	transition: 3s;
+}
+
+.picture1:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+	/* transform: translate(10%, 0%) rotate3d(0,1,0, 180deg); */
+}
+
+p {
+	/* display: inline-block; */
+	font-size: smaller;
+	color: rgba(231, 189, 235, 0.8);
+}
+
+.text2 {
+	opacity: 0;
+	font-size: large;
+	width: 170px;
+	height: 80px;
+	color: aliceblue;
+}
+
+.text2:hover {
+	opacity: 1;
+	text-shadow: 0 1px 10px whitesmoke;
+	cursor: default;
+}
+
+.aside-box {
+	width: 50px;
+	height: 240px;
+	background: rgb(226, 218, 243);
+	position: fixed;
+	right: 1px;
+	bottom: 130px;
+	box-shadow: -6px 8px 9px #878787;
+	overflow: hidden;
+}
+
+.picture2 {
+	display: inline-block;
+	width: 50px;
+	cursor: pointer;
+}
+
+.right {
+	position: absolute;
+	top: 133px;
+	left: 700px;
+}
+
+.text3 {
+	background: url(游戏4.jpeg) no-repeat;
+	opacity: 0;
+	cursor: default;
+}
+
+.text3:hover {
+	cursor: auto;
+	background: url(游戏4.jpeg) no-repeat;
+	opacity: 1;
+}
+
+.box1 {
+	position: absolute;
+	left: 44px;
+	top: 430px;
+	color: beige;
+}
+
+.button1 {
+	border-radius: 12px;
+	color: #ff793f;
+	cursor: pointer;
+}
+
+.button1:hover {
+	background-color: #ffc4ff;
+	color: #764539;
+	opacity: 0.4;
+}
+
+.button1:active {
+	background-color: #c7d6ff;
+	color: #ff793f;
+	opacity: 0.4;
+}
+
+em {
+	position: absolute;
+	left: 44px;
+	top: 630px;
+	color: beige;
+	cursor: auto;
+}
+
+.box2 {
+	width: 400px;
+	height: 100px;
+	position: absolute;
+	bottom: -450px;
+	left: 40px;
+}
+
+.box3 {
+	display: inline-block;
+	width: 80px;
+	opacity: 0.5;
+}
+
+.box3:hover {
+	opacity: 1;
+}
+
+.picture3 {
+	border: 2px solid lavender;
+	border-radius: 4px;
+	/* transform: translate(0%, 0%) rotate3d(0,0,0, 360deg); */
+	transform: translate(0%, 0%) rotate(0, 0);
+	transition: 7s;
+}
+
+.picture3:hover {
+	/* transform: translate(-45%, 0%) rotate3d(1,2,0, 360deg); */
+	transform: translate(-45%, 0%) rotate(-360deg);
+}
+
+.box4 {
+	text-align: center;
+	width: 1200px;
+	height: 110px;
+	font-size: 20px;
+	position: absolute;
+	bottom: -600px;
+}
+
+.box5 {
+	letter-spacing: 4px;
+	width: 150px;
+	height: 20px;
+	border-radius: 10px;
+	border-bottom: 1px solid snow;
+	border-left: 1px solid snow;
+	border-right': 1px solid snow;
+
+}
+
+.box5:hover {
+	cursor: default;
+	background-color: beige;
+	/* animation-name: cc; */
+/* 	animation-duration: 2.5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite; */
+} 
+
+/* @-webkit-keyframes cc{
+	0%{
+		border: 1px solid snow;
+		background-color: greenyellow;
+	}
+	30%{
+		transform: rotate();
+		border: 2px solid darksalmon;
+		background-color: aquamarine;
+	}
+	60%{
+		border: 3px solid powderblue;
+		background-color: skyblue;
+	}
+	90%{
+		border: 4px solid coral;
+		background-color: orange;
+	}
+	120%{
+		border: 3px solid navajowhite;
+		background-color: ghostwhite;
+	}
+	150%{
+		border: 2px solid lightgray;
+	}
+	180%{
+		border: 1px solid skyblue;
+	}
+}
+ */
+.text4 {
+	font-size: 20px;
+	color: #F0F8FF;
+	text-indent: 2em;
+	z-index: -1;
+}
